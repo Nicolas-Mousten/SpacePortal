@@ -2,7 +2,6 @@ package com.example.spaceportal.Planet.Controller;
 
 import com.example.spaceportal.Planet.Model.Planet;
 import com.example.spaceportal.Planet.Model.PlanetRepository;
-import com.example.spaceportal.Planet.Service.PlanetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;

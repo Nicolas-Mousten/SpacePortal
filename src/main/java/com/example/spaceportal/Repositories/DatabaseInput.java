@@ -6,10 +6,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DatabaseInput {
-    public static void main(String[] args) {
-        DatabaseInput jdba = new DatabaseInput();
-        jdba.InsertIntoDatabase();
-    }
     public ArrayList<Planet> InsertIntoDatabase(){
         //Initialising
         WebScraping test = new WebScraping();
@@ -52,7 +48,6 @@ public class DatabaseInput {
                     parsedList.get(19).get(parsedList.get(19).size()-i),
                     parsedList.get(20).get(parsedList.get(20).size()-i)
                 );
-            System.out.println(temp);
             planets.add(temp);
             //removes last item in arraylist to acces next element
         }
